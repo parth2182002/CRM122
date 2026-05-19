@@ -1,0 +1,11 @@
+Failed to initialize backend services.
+Error: connect ECONNREFUSED 127.0.0.1:5432
+    at E:\maple-crm-system sample\server\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async ensureDatabaseSetup (E:\maple-crm-system sample\server\server.js:73:3) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432
+}
